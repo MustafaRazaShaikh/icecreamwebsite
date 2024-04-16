@@ -1,0 +1,82 @@
+.img{
+    margin-bottom: -58px;
+    background-color: pink;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+  color: rgb(85, 169, 182);
+  text-decoration: underline;
+text-decoration-color: rgb(85, 169, 182);
+
+}
+a{
+    text-align: right;
+    margin-left :100px;
+    margin-top: -10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.dropdown{
+    width: 100%;
+    height: 49px;
+    border-style: solid;
+    border-radius:12px;
+    border-color:rgb(246, 231, 175);
+  word-spacing: 30px;
+background-color: rgb(246, 231, 175);
+font-size: 30px;
+cursor: pointer;
+}
+
+
+.box1{
+    width: 645px;
+    height: 550px;
+    background-color: rgb(141, 181, 242);
+    text-align: center;
+    font-weight: bold;
+    font-size: large; 
+}
+
+.get{
+    border:1px solid rgb(11, 56, 190);
+    border-radius: 12px;
+    background-color: rgb(11, 56, 190);
+    width: 250px;
+    height: 80px;
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(246, 231, 175) ;
+    width: 25%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 2;
+   border-radius: 20px;
+    word-spacing: 5px;
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    margin-top: 20px;
+    
+  }
